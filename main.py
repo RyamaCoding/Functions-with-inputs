@@ -5,7 +5,8 @@ def greet():
 
 greet()
 
-def greet_with_name(something):
-    print(f"{something}")
+def greet_with_name(name, location):
+    print(f"Hi my name is {name}")
+    print(f"I am from {location}")
 
-greet_with_name("Alice")
+greet_with_name("Alice", "England")
